@@ -11,3 +11,7 @@ function App() {
 }
 
 export default App;
+
+  //      summary
+  // In app.js waht i was learned
+  // *wrapper or container of Home.js

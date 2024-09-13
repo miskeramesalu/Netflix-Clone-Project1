@@ -17,3 +17,9 @@ const Home = () => {
 }
 
 export default Home
+
+            // Summary
+// In the Home.js what I was learned
+// *renders(Header,Footer,banner,Rowlists)
+// *export(available for import to other parts of application)
+// *< >...</> empty fragmet to remove unnecessary HTML Elements meaning

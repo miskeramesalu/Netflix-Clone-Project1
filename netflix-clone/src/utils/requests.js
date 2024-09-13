@@ -1,7 +1,7 @@
 const API_KEY = process.env.REACT_APP_API_KEY;
 const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
-  fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}$with_networks=213`,
+  fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
   fetchTopRatedMovies: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
   fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
   fetchComedyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
@@ -13,4 +13,9 @@ const requests = {
 
 export default requests;
 
-// https://api.themoviedb.org/3/discover/tv?api_key=f645a0116c37991a77d37f8fce270cc6&with_networks=213
+//  Summary
+//  what I learn from requests.js
+//  *use to set API-key
+//  *use to secure API key
+//  *uses to cnfigure and managing API end points for various types of movies,tvshows and images
+//  *exportable
